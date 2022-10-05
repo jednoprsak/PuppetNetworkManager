@@ -1,4 +1,4 @@
-This is Puppet manifest for installation, configuration and control NetworkManager using keyfiles.
+This is Puppet manifest for installation, configuration, and control NetworkManager using keyfiles.
 
 It is especialy designed for CentOS and its new derivates like Rocky Linux.
 
@@ -13,7 +13,7 @@ which ensures that the package is installed, runs service and configures man con
 nm::reload class
 Execute take created keyfiles and starts them using nmcli. It is notified from each define.
 
-And than there are defines for the creation of different types of keyfiles:
+And than there are defines to create different types of keyfiles:
 nm::ifc::connection
 nm::ifc::fallback
 nm::ifc::bridge
