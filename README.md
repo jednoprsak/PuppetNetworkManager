@@ -1,4 +1,5 @@
-This is Puppet manifest for installation, configuration, and control NetworkManager using keyfiles.
+This is Puppet manifest for installation, configuration, and control NetworkManager using keyfiles. I am going to write propper puppet forge standard module until the end of the October 2022.
+
 
 It is especialy designed for CentOS and its new derivates like Rocky Linux.
 
